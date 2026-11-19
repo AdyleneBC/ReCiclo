@@ -2,5 +2,5 @@
   "name": "ReCiclo",
   "description": "Plataforma de economía circular que conecta a comerciantes de centrales de abastos y comercios locales con ganaderos para aprovechar excedentes y residuos orgánicos.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

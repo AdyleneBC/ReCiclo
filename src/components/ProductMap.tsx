@@ -167,8 +167,8 @@ export function ProductMap({
 
   return (
     <div className="reciclo-card overflow-hidden rounded-none sm:rounded-2xl border-x-0 sm:border-x">
-      {/* Contenedor Leaflet inmediato en la parte superior */}
-      <div className="relative h-[52vh] min-h-[340px] sm:h-[460px] w-full">
+      {/* Contenedor Leaflet aislado (isolate z-0) para evitar que leyenda o controles se sobrepongan al chatbot o modales */}
+      <div className="relative isolate z-0 h-[52vh] min-h-[340px] sm:h-[460px] w-full">
         <div ref={mapContainerRef} className="h-full w-full" />
 
         {/* Controles flotantes opcionales sobre el mapa (buscador y filtros en móvil) */}

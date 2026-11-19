@@ -18,6 +18,7 @@ import { Filters } from '../components/Filters';
 import { ProductMap } from '../components/ProductMap';
 import { ProductCard } from '../components/ProductCard';
 import { ProductDetail } from '../components/ProductDetail';
+import { GanaderoChatbot } from '../components/GanaderoChatbot';
 
 const CHIPS_RESIDUO: Array<{ etiqueta: string; valor: TipoResiduo | 'todos' }> =
   [
@@ -334,6 +335,8 @@ export function Ganadero() {
           }}
         />
       )}
+      {/* Chatbot flotante exclusivo del ganadero */}
+      <GanaderoChatbot onVerDetalle={(id) => setProductoDetalleId(id)} />
     </div>
   );
 }
