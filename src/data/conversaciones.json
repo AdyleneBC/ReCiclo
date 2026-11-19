@@ -1,0 +1,157 @@
+[
+  {
+    "id": "conv-1",
+    "comercianteId": "com-1",
+    "ganaderoId": "gan-1",
+    "productoId": "prod-1",
+    "noLeidosComerciante": 1,
+    "noLeidosGanadero": 0,
+    "mensajes": [
+      {
+        "id": "msg-101",
+        "emisorId": "gan-1",
+        "texto": "¡Hola! Me interesa adquirir tu producto. ¿Puedo pasar con camioneta hoy por la tarde?",
+        "fecha": "2026-11-19 09:15",
+        "tipo": "mensaje"
+      },
+      {
+        "id": "msg-102",
+        "emisorId": "com-1",
+        "texto": "Buenos días don Ramiro, claro que sí. Estamos cargando en el andén hasta las 5:00 pm.",
+        "fecha": "2026-11-19 09:28",
+        "tipo": "mensaje"
+      },
+      {
+        "id": "msg-103",
+        "emisorId": "gan-1",
+        "texto": "Oferta económica enviada por 200 kg",
+        "fecha": "2026-11-19 09:40",
+        "tipo": "oferta",
+        "ofertaId": "of-101"
+      }
+    ],
+    "ofertas": [
+      {
+        "id": "of-101",
+        "tipo": "economica",
+        "emisorId": "gan-1",
+        "precioOriginal": 3.5,
+        "precioPropuesto": 2.9,
+        "cantidadSolicitadaKg": 200,
+        "mensajeOpcional": "Llevo mis propias cajas plásticas para agilizar la carga.",
+        "estado": "pendiente",
+        "fecha": "2026-11-19 09:40"
+      }
+    ]
+  },
+  {
+    "id": "conv-2",
+    "comercianteId": "com-1",
+    "ganaderoId": "gan-2",
+    "productoId": "prod-2",
+    "noLeidosComerciante": 1,
+    "noLeidosGanadero": 0,
+    "mensajes": [
+      {
+        "id": "msg-201",
+        "emisorId": "gan-2",
+        "texto": "¡Hola! Me interesa adquirir tu producto para complementar la dieta de mis borregos.",
+        "fecha": "2026-11-19 10:05",
+        "tipo": "mensaje"
+      },
+      {
+        "id": "msg-202",
+        "emisorId": "gan-2",
+        "texto": "Oferta de trueque enviada por 120 kg",
+        "fecha": "2026-11-19 10:08",
+        "tipo": "oferta",
+        "ofertaId": "of-201"
+      }
+    ],
+    "ofertas": [
+      {
+        "id": "of-201",
+        "tipo": "trueque",
+        "emisorId": "gan-2",
+        "productoOfrecido": "Queso fresco artesanal de oveja y vaca",
+        "cantidadOfrecida": 6,
+        "unidadMedida": "kg",
+        "descripcionTrueque": "Queso elaborado esta mañana en Granja Santa Clara, empaque limpio en piezas de 500 g.",
+        "cantidadSolicitadaKg": 120,
+        "estado": "pendiente",
+        "fecha": "2026-11-19 10:08"
+      }
+    ]
+  },
+  {
+    "id": "conv-3",
+    "comercianteId": "com-2",
+    "ganaderoId": "gan-3",
+    "productoId": "prod-4",
+    "noLeidosComerciante": 0,
+    "noLeidosGanadero": 1,
+    "mensajes": [
+      {
+        "id": "msg-301",
+        "emisorId": "gan-3",
+        "texto": "¡Hola! Me interesa adquirir tu producto. ¿Aceptan pago contra entrega en bodega?",
+        "fecha": "2026-11-18 15:20",
+        "tipo": "mensaje"
+      },
+      {
+        "id": "msg-302",
+        "emisorId": "com-2",
+        "texto": "Sí señor Ignacio, pago directo al pesar las arpillas en báscula.",
+        "fecha": "2026-11-18 15:45",
+        "tipo": "mensaje"
+      }
+    ],
+    "ofertas": []
+  },
+  {
+    "id": "conv-4",
+    "comercianteId": "com-5",
+    "ganaderoId": "gan-4",
+    "productoId": "prod-22",
+    "noLeidosComerciante": 0,
+    "noLeidosGanadero": 0,
+    "mensajes": [
+      {
+        "id": "msg-401",
+        "emisorId": "gan-4",
+        "texto": "¡Hola! Me interesa adquirir tu producto mediante intercambio semanal.",
+        "fecha": "2026-11-16 08:10",
+        "tipo": "mensaje"
+      },
+      {
+        "id": "msg-402",
+        "emisorId": "gan-4",
+        "texto": "Oferta de trueque enviada por 180 kg",
+        "fecha": "2026-11-16 08:15",
+        "tipo": "oferta",
+        "ofertaId": "of-401"
+      },
+      {
+        "id": "msg-403",
+        "emisorId": "com-5",
+        "texto": "Oferta de trueque aceptada. Se registraron 180 kg intercambiados por 25 litros de leche bronca fresca.",
+        "fecha": "2026-11-16 08:40",
+        "tipo": "notificacion"
+      }
+    ],
+    "ofertas": [
+      {
+        "id": "of-401",
+        "tipo": "trueque",
+        "emisorId": "gan-4",
+        "productoOfrecido": "Leche bronca fresca del día",
+        "cantidadOfrecida": 25,
+        "unidadMedida": "litros",
+        "descripcionTrueque": "Entrega en cántaros sanitizados de acero inoxidable.",
+        "cantidadSolicitadaKg": 180,
+        "estado": "aceptada",
+        "fecha": "2026-11-16 08:15"
+      }
+    ]
+  }
+]

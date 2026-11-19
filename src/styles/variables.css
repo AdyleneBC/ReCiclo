@@ -1,0 +1,27 @@
+:root {
+  /* Identidad ReCiclo */
+  --color-verde: #6E9167;
+  --color-verde-hover: #5C7B56;
+  --color-verde-suave: #F1F5F0;
+  --color-amarillo: #FFDD8C;
+  --color-amarillo-suave: #FFF9EB;
+  --color-naranja: #FF8030;
+  --color-naranja-oscuro: #CC4E00;
+  --color-naranja-suave: #FFF3EB;
+  --color-vino: #700808;
+  --color-vino-suave: #FDF2F2;
+
+  /* Neutros y superficies */
+  --color-fondo: #FFFFFF;
+  --color-superficie-sec: #F7F8F6;
+  --color-borde: #E4E7E3;
+  --color-borde-fuerte: #CFD5CD;
+  --color-texto-principal: #141714;
+  --color-texto-secundario: #454B45;
+  --color-texto-muted: #6C736C;
+
+  /* Tipografía */
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}

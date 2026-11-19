@@ -1,0 +1,112 @@
+[
+  {
+    "id": "com-1",
+    "nombre": "Alicia Mendoza",
+    "nombreEstablecimiento": "Frutería Alicia · Nave B-14",
+    "tipoEstablecimiento": "Central de Abastos",
+    "fotografiaPerfil": "",
+    "telefono": "+52 722 010 4412",
+    "ubicacion": "Nave B, Local 14, Central de Abastos Regional",
+    "coordenadas": { "lat": 19.3162, "lng": -99.6145 },
+    "descripcion": "Comercializadora de fruta tropical y cítricos de temporada con excedentes diarios limpios aptos para ganado bovino y porcino."
+  },
+  {
+    "id": "com-2",
+    "nombre": "Roberto Salgado",
+    "nombreEstablecimiento": "Bodega Los Cipreses · Nave A-08",
+    "tipoEstablecimiento": "Central de Abastos",
+    "fotografiaPerfil": "",
+    "telefono": "+52 722 010 7821",
+    "ubicacion": "Nave A, Andén 8, Central de Abastos Regional",
+    "coordenadas": { "lat": 19.3148, "lng": -99.6168 },
+    "descripcion": "Distribuidor mayorista de papa, zanahoria y tubérculos fuera de calibre comercial."
+  },
+  {
+    "id": "com-3",
+    "nombre": "Marisol Vega",
+    "nombreEstablecimiento": "Verdulería San Ángel · Nave C-22",
+    "tipoEstablecimiento": "Central de Abastos",
+    "fotografiaPerfil": "",
+    "telefono": "+52 722 010 3309",
+    "ubicacion": "Nave C, Local 22, Central de Abastos Regional",
+    "coordenadas": { "lat": 19.3175, "lng": -99.6122 },
+    "descripcion": "Especialistas en hortalizas de hoja verde. Separamos diariamente hojas externas de col, lechuga y tallos de brócoli."
+  },
+  {
+    "id": "com-4",
+    "nombre": "Héctor Domínguez",
+    "nombreEstablecimiento": "Comercializadora El Surco · Nave D-03",
+    "tipoEstablecimiento": "Central de Abastos",
+    "fotografiaPerfil": "",
+    "telefono": "+52 722 010 9154",
+    "ubicacion": "Nave D, Bodega 3, Central de Abastos Regional",
+    "coordenadas": { "lat": 19.3139, "lng": -99.6138 },
+    "descripcion": "Venta por caja de jitomate, calabacita y chile. Ofrecemos lotes de segunda por madurez rápida."
+  },
+  {
+    "id": "com-5",
+    "nombre": "Elena Navarro",
+    "nombreEstablecimiento": "Jugos y Cítricos La Huerta · Nave B-31",
+    "tipoEstablecimiento": "Central de Abastos",
+    "fotografiaPerfil": "",
+    "telefono": "+52 722 010 6048",
+    "ubicacion": "Nave B, Local 31, Central de Abastos Regional",
+    "coordenadas": { "lat": 19.3155, "lng": -99.6181 },
+    "descripcion": "Extracción mayorista de jugos naturales; contamos con bagazo y cáscaras limpias de naranja, piña y melón."
+  },
+  {
+    "id": "com-6",
+    "nombre": "Jorge Ibarra",
+    "nombreEstablecimiento": "Mercado del Barrio El Calvario",
+    "tipoEstablecimiento": "Comercio local",
+    "fotografiaPerfil": "",
+    "telefono": "+52 722 011 2280",
+    "ubicacion": "Av. Hidalgo Pte. 214, Metepec Centro",
+    "coordenadas": { "lat": 19.2535, "lng": -99.6042 },
+    "descripcion": "Tienda familiar de frutas y verduras con mermas frescas seleccionadas cada tarde."
+  },
+  {
+    "id": "com-7",
+    "nombre": "Carmen Ortiz",
+    "nombreEstablecimiento": "Frutas y Semillas La Espiga",
+    "tipoEstablecimiento": "Comercio local",
+    "fotografiaPerfil": "",
+    "telefono": "+52 722 011 5930",
+    "ubicacion": "Calle Benito Juárez 88, San Mateo Atenco",
+    "coordenadas": { "lat": 19.2682, "lng": -99.5324 },
+    "descripcion": "Comercio local con excedentes de plátano, manzana y restos vegetales limpios."
+  },
+  {
+    "id": "com-8",
+    "nombre": "Fernando Paredes",
+    "nombreEstablecimiento": "Abarrotes y Recaudería El Trébol",
+    "tipoEstablecimiento": "Comercio local",
+    "fotografiaPerfil": "",
+    "telefono": "+52 722 011 8411",
+    "ubicacion": "Calzada del Pacífico 410, Zinacantepec",
+    "coordenadas": { "lat": 19.2830, "lng": -99.7340 },
+    "descripcion": "Negocio de abarrotes y hortalizas locales cercano a zona ejidal con entregas rápidas."
+  },
+  {
+    "id": "com-9",
+    "nombre": "Lucía Cárdenas",
+    "nombreEstablecimiento": "Cocina Económica y Frutería Sol",
+    "tipoEstablecimiento": "Comercio local",
+    "fotografiaPerfil": "",
+    "telefono": "+52 722 011 1745",
+    "ubicacion": "Paseo Tollocan 1020, Zona Centro",
+    "coordenadas": { "lat": 19.2889, "lng": -99.6540 },
+    "descripcion": "Preparamos ensaladas y fruta picada; separamos cáscaras y recortes vegetales libres de grasas o condimentos."
+  },
+  {
+    "id": "com-10",
+    "nombre": "Tomás Rangel",
+    "nombreEstablecimiento": "Hortalizas Frescas del Valle",
+    "tipoEstablecimiento": "Comercio local",
+    "fotografiaPerfil": "",
+    "telefono": "+52 722 011 6672",
+    "ubicacion": "Av. Reolin Barejón 52, Lerma",
+    "coordenadas": { "lat": 19.2865, "lng": -99.5120 },
+    "descripcion": "Punto de venta directo de productores locales con calabaza, chayote y zanahoria fuera de tamaño estándar."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "gan-1",
+    "nombre": "Ramiro Morales",
+    "rancho": "Rancho El Roble",
+    "fotografiaPerfil": "",
+    "ubicacion": "Camino Viejo a San Pablo Autopan Km 4, Zona Norte",
+    "coordenadas": { "lat": 19.3420, "lng": -99.6850 },
+    "telefono": "+52 722 020 3105",
+    "descripcion": "Cría de ganado bovino lechero y engorda con dieta complementada con fruta madura y hortalizas frescas."
+  },
+  {
+    "id": "gan-2",
+    "nombre": "Patricia Lozano",
+    "rancho": "Granja Santa Clara",
+    "fotografiaPerfil": "",
+    "ubicacion": "Ejido San Gaspar, Metepec Sur",
+    "coordenadas": { "lat": 19.2350, "lng": -99.5680 },
+    "telefono": "+52 722 020 8842",
+    "descripcion": "Producción familiar de ovinos y caprinos; interesada en hojas de verduras, zanahorias y trueques con queso artesanal."
+  },
+  {
+    "id": "gan-3",
+    "nombre": "Ignacio Chávez",
+    "rancho": "Corrales San Isidro",
+    "fotografiaPerfil": "",
+    "ubicacion": "San Luis Mextepec, Zinacantepec",
+    "coordenadas": { "lat": 19.3020, "lng": -99.7620 },
+    "telefono": "+52 722 020 5519",
+    "descripcion": "Granja porcina de ciclo completo. Buscamos lotes continuos de papa fuera de calibre, calabaza y desperdicio limpio."
+  },
+  {
+    "id": "gan-4",
+    "nombre": "Sofía Ávila",
+    "rancho": "Establo La Cañada",
+    "fotografiaPerfil": "",
+    "ubicacion": "San Pedro Totoltepec, Zona Oriente",
+    "coordenadas": { "lat": 19.3890, "lng": -99.5910 },
+    "telefono": "+52 722 020 1974",
+    "descripcion": "Establo lechero con 45 cabezas; ofrecemos leche bronca y composta orgánica en intercambio por bagazo de cítricos."
+  },
+  {
+    "id": "gan-5",
+    "nombre": "Mateo Guerrero",
+    "rancho": "Rancho Los Sauces",
+    "fotografiaPerfil": "",
+    "ubicacion": "Santiago Tlacotepec, Zona Sur",
+    "coordenadas": { "lat": 19.2050, "lng": -99.6950 },
+    "telefono": "+52 722 020 7420",
+    "descripcion": "Productor de ganado bovino y aves de corral de libre pastoreo."
+  }
+]
