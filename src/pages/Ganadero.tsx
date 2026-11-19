@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
   RotateCcw,
   Search,
   SlidersHorizontal,
+  Store,
   X,
 } from 'lucide-react';
 import { useReCiclo } from '../context/ReCicloContext';
@@ -178,12 +180,22 @@ export function Ganadero() {
                 </select>
               </div>
 
-              <span className="text-xs font-semibold text-[#6C736C] font-tabular">
-                {productosFiltrados.length}{' '}
-                {productosFiltrados.length === 1
-                  ? 'resultado encontrado'
-                  : 'resultados encontrados'}
-              </span>
+              <div className="flex items-center gap-3">
+                <span className="text-xs font-semibold text-[#6C736C] font-tabular">
+                  {productosFiltrados.length}{' '}
+                  {productosFiltrados.length === 1
+                    ? 'resultado encontrado'
+                    : 'resultados encontrados'}
+                </span>
+                <Link
+                  to="/comerciante"
+                  onClick={() => setRolActivo('comerciante')}
+                  className="hidden md:inline-flex items-center gap-1.5 px-3.5 min-h-[40px] text-xs font-semibold rounded-xl border border-[#E4E7E3] bg-white text-[#141714] hover:border-[#6E9167] hover:bg-[#F7F8F6] transition-colors whitespace-nowrap shrink-0"
+                >
+                  <Store className="w-3.5 h-3.5 text-[#CC4E00]" />
+                  <span>Cambiar a modo comercial</span>
+                </Link>
+              </div>
             </div>
 
             {/* Botones horizontales por tipo de residuo en móvil */}

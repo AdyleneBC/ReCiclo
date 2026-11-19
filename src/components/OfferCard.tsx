@@ -68,14 +68,14 @@ export function OfferCard({
           <div>
             <span className="text-[#6C736C] block">Original</span>
             <span className="font-medium text-[#454B45] line-through font-tabular">
-              ${(oferta.precioOriginal ?? producto?.precioPorKg ?? 0).toFixed(2)}
-              /kg
+              ${(oferta.precioOriginal ?? producto?.precioPorKg ?? 0).toFixed(2)}{' '}
+              MXN/kg
             </span>
           </div>
           <div>
             <span className="text-[#6C736C] block">Propuesto</span>
             <span className="font-bold text-[#6E9167] font-tabular">
-              ${(oferta.precioPropuesto ?? 0).toFixed(2)}/kg
+              ${(oferta.precioPropuesto ?? 0).toFixed(2)} MXN/kg
             </span>
           </div>
           <div>

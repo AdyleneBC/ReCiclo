@@ -230,7 +230,7 @@ export function ProductForm({
                 htmlFor="form-precio"
                 className="block text-xs font-medium text-[#454B45] mb-1"
               >
-                Precio ($/kg)
+                Precio (MXN / kg)
               </label>
               <input
                 id="form-precio"

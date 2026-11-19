@@ -22,7 +22,7 @@ export function formatearMoneda(valor: number): string {
 
 export function describirOfertaResumen(oferta: Oferta): string {
   if (oferta.tipo === 'economica') {
-    return `Oferta económica: $${(oferta.precioPropuesto ?? 0).toFixed(2)}/kg por ${oferta.cantidadSolicitadaKg} kg`;
+    return `Oferta económica: $${(oferta.precioPropuesto ?? 0).toFixed(2)} MXN/kg por ${oferta.cantidadSolicitadaKg} kg`;
   }
   return `Trueque: ${oferta.cantidadOfrecida ?? 0} ${oferta.unidadMedida ?? ''} de ${oferta.productoOfrecido ?? ''} por ${oferta.cantidadSolicitadaKg} kg`;
 }

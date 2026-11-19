@@ -87,7 +87,7 @@ export function ProductDetail({
     }
     if (precioNum >= producto.precioPorKg) {
       setErrorForm(
-        `La oferta económica debe ser menor al precio original ($${producto.precioPorKg.toFixed(2)}/kg).`
+        `La oferta económica debe ser menor al precio original ($${producto.precioPorKg.toFixed(2)} MXN/kg).`
       );
       return;
     }
@@ -262,7 +262,7 @@ export function ProductDetail({
                 <span className="font-display text-xl sm:text-2xl font-bold text-[#141714] font-tabular">
                   ${producto.precioPorKg.toFixed(2)}
                 </span>
-                <span className="text-xs text-[#6C736C] ml-1">/ kg</span>
+                <span className="text-xs text-[#6C736C] ml-1">MXN / kg</span>
               </div>
               <div>
                 <span className="text-xs text-[#6C736C] block">
@@ -399,7 +399,7 @@ export function ProductDetail({
                         htmlFor="eco-precio"
                         className="block text-xs font-medium text-[#454B45] mb-1"
                       >
-                        Precio propuesto ($/kg)
+                        Precio propuesto (MXN / kg)
                       </label>
                       <input
                         id="eco-precio"

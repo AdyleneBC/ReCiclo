@@ -278,7 +278,7 @@ export function ReCicloProvider({ children }: { children: React.ReactNode }) {
     const mensajeOferta: Mensaje = {
       id: `msg-${Date.now()}`,
       emisorId: ganaderoActivoId,
-      texto: `Oferta económica enviada por ${input.cantidadSolicitadaKg} kg ($${input.precioPropuesto.toFixed(2)}/kg)`,
+      texto: `Oferta económica enviada por ${input.cantidadSolicitadaKg} kg ($${input.precioPropuesto.toFixed(2)} MXN/kg)`,
       fecha,
       tipo: 'oferta',
       ofertaId,
@@ -412,7 +412,7 @@ export function ReCicloProvider({ children }: { children: React.ReactNode }) {
       }
 
       if (oferta.tipo === 'economica') {
-        textoNotificacion = `Oferta económica aceptada por ${kgNegociados} kg a $${(oferta.precioPropuesto ?? producto.precioPorKg).toFixed(2)}/kg. ${restanteKg === 0 ? 'Publicación marcada como vendida.' : `Quedan ${restanteKg} kg disponibles.`}`;
+        textoNotificacion = `Oferta económica aceptada por ${kgNegociados} kg a $${(oferta.precioPropuesto ?? producto.precioPorKg).toFixed(2)} MXN/kg. ${restanteKg === 0 ? 'Publicación marcada como vendida.' : `Quedan ${restanteKg} kg disponibles.`}`;
       } else {
         textoNotificacion = `Oferta de trueque aceptada (${oferta.cantidadOfrecida} ${oferta.unidadMedida} de ${oferta.productoOfrecido} por ${kgNegociados} kg). ${restanteKg === 0 ? 'Publicación marcada como vendida.' : `Quedan ${restanteKg} kg disponibles.`}`;
       }

@@ -39,13 +39,13 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-[#E4E7E3]">
       {/* Barra móvil compacta (48px) */}
-      <div className="md:hidden px-4 h-12 flex items-center justify-between gap-2">
+      <div className="md:hidden px-3 h-12 flex items-center justify-between gap-2">
         <Link
           to="/"
-          className="flex items-center gap-2 text-[#141714] min-h-[44px] pr-2 whitespace-nowrap shrink-0"
+          className="flex items-center gap-2 text-[#141714] min-h-[44px] pr-1 whitespace-nowrap shrink-0 min-w-0"
         >
-          <LogoReCiclo size={26} />
-          <span className="font-display text-base font-bold tracking-tight">
+          <LogoReCiclo size={24} />
+          <span className="font-display text-sm sm:text-base font-bold tracking-tight truncate">
             {tituloMovil}
           </span>
         </Link>
@@ -53,11 +53,13 @@ export function Navbar() {
         <button
           type="button"
           onClick={alternarRolMovil}
-          className="inline-flex items-center gap-1.5 px-3 min-h-[36px] text-xs font-semibold rounded-xl border border-[#E4E7E3] bg-[#F7F8F6] text-[#141714] active:scale-[0.98] transition-transform whitespace-nowrap shrink-0 cursor-pointer"
+          className="inline-flex items-center gap-1.5 px-2.5 min-h-[36px] text-[11px] sm:text-xs font-semibold rounded-xl border border-[#E4E7E3] bg-[#F7F8F6] text-[#141714] active:scale-[0.98] transition-transform whitespace-nowrap shrink-0 cursor-pointer"
         >
-          <ArrowLeftRight className="w-3.5 h-3.5 text-[#6E9167]" />
+          <ArrowLeftRight className="w-3.5 h-3.5 text-[#6E9167] shrink-0" />
           <span>
-            {rolActivo === 'ganadero' ? 'Modo Comerciante' : 'Modo Ganadero'}
+            {rolActivo === 'ganadero'
+              ? 'Cambiar a modo comercial'
+              : 'Cambiar a modo ganadero'}
           </span>
         </button>
       </div>

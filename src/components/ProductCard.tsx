@@ -53,7 +53,9 @@ export function ProductCard({
               <span className="font-display text-lg font-bold text-[#141714] font-tabular">
                 ${producto.precioPorKg.toFixed(2)}
               </span>
-              <span className="text-xs text-[#6C736C] ml-1">/ kg</span>
+              <span className="text-xs font-medium text-[#6C736C] ml-1">
+                MXN / kg
+              </span>
             </div>
             <span className="text-sm font-semibold text-[#6E9167] font-tabular">
               {producto.cantidadKg} kg

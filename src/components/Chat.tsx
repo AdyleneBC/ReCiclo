@@ -271,7 +271,7 @@ export function Chat() {
                           {productoActivo && (
                             <p className="text-xs text-[#6C736C] truncate font-tabular">
                               {productoActivo.nombre} — $
-                              {productoActivo.precioPorKg.toFixed(2)}/kg ·{' '}
+                              {productoActivo.precioPorKg.toFixed(2)} MXN/kg ·{' '}
                               {productoActivo.estado === 'vendido'
                                 ? 'Vendido'
                                 : `${productoActivo.cantidadKg} kg disponibles`}

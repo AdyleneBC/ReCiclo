@@ -142,7 +142,7 @@ export function ProductMap({
       });
 
       marker.bindTooltip(
-        `${prod.nombre} · $${prod.precioPorKg.toFixed(2)}/kg (${comerciante?.nombreEstablecimiento ?? prod.tipoEstablecimiento})`,
+        `${prod.nombre} · $${prod.precioPorKg.toFixed(2)} MXN/kg (${comerciante?.nombreEstablecimiento ?? prod.tipoEstablecimiento})`,
         { direction: 'top', offset: [0, -8] }
       );
 
@@ -216,7 +216,7 @@ export function ProductMap({
                   {productoSeleccionado.nombre}
                 </h3>
                 <p className="mt-1 text-xs font-bold text-[#141714] font-tabular">
-                  ${productoSeleccionado.precioPorKg.toFixed(2)}/kg ·{' '}
+                  ${productoSeleccionado.precioPorKg.toFixed(2)} MXN/kg ·{' '}
                   <span className="text-[#6E9167]">
                     {productoSeleccionado.cantidadKg} kg
                   </span>
@@ -258,7 +258,7 @@ export function ProductMap({
                 <div>
                   <span className="text-[#6C736C] block">Precio</span>
                   <span className="font-semibold text-[#141714] font-tabular text-sm">
-                    ${productoSeleccionado.precioPorKg.toFixed(2)} / kg
+                    ${productoSeleccionado.precioPorKg.toFixed(2)} MXN / kg
                   </span>
                 </div>
                 <div>

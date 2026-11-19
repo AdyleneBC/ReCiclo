@@ -178,7 +178,7 @@ export function Comerciante() {
             className="hidden md:inline-flex items-center gap-1.5 px-3.5 min-h-[44px] text-xs font-semibold rounded-xl border border-[#E4E7E3] bg-white text-[#141714] hover:border-[#6E9167] hover:bg-[#F7F8F6] transition-colors whitespace-nowrap shrink-0"
           >
             <Tractor className="w-3.5 h-3.5 text-[#6E9167]" />
-            <span>Cambiar a Ganadero</span>
+            <span>Cambiar a modo ganadero</span>
           </Link>
         </div>
       </div>
@@ -343,7 +343,7 @@ export function Comerciante() {
                           <div className="grid grid-cols-2 gap-2">
                             <div>
                               <label className="text-[11px] text-[#454B45] block mb-0.5">
-                                Precio ($/kg)
+                                Precio (MXN/kg)
                               </label>
                               <input
                                 type="number"
@@ -394,7 +394,7 @@ export function Comerciante() {
                           <span className="font-display text-lg font-bold text-[#141714] font-tabular">
                             ${prod.precioPorKg.toFixed(2)}{' '}
                             <span className="text-xs font-normal text-[#6C736C]">
-                              / kg
+                              MXN / kg
                             </span>
                           </span>
                           <span className="text-sm font-semibold text-[#6E9167] font-tabular">
@@ -519,9 +519,9 @@ export function Comerciante() {
                       <div className="flex justify-between gap-2">
                         <span className="text-[#6C736C]">Precio final:</span>
                         <span className="font-semibold text-[#141714] font-tabular">
-                          ${venta.precioFinalPorKg.toFixed(2)}/kg
+                          ${venta.precioFinalPorKg.toFixed(2)} MXN/kg
                           {venta.totalPagado !== undefined
-                            ? ` ($${venta.totalPagado.toFixed(2)})`
+                            ? ` ($${venta.totalPagado.toFixed(2)} MXN)`
                             : ''}
                         </span>
                       </div>
